@@ -52,7 +52,7 @@ ONNX (Open Neural Network Exchange) nous permet de :
 ## ⚙️ Setup Environment - Development
 
 ### 1️⃣ Download and Install Python <= 3.12.9
-Utiliser une version de Python en-desssous de 3.12.9 ou strictement égal, sinon ONNX n'as pas de binaire pré-compiler pour Python >= 13.x.x <br />
+Utiliser une version de Python en-desssous de 3.12.9 ou strictement égal, sinon ONNX n'as pas de binaire pré-compiler pour Python > 3.12.9 <br />
 URL : https://www.python.org/downloads/
 
 ### 2️⃣ Activer le support des chemins longs (Windows)
