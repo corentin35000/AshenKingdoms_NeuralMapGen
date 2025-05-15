@@ -1,19 +1,17 @@
-# Ashen Kingdoms - Neural Map Generator / AI-Powered Procedural Worlds
+# Jeu - Neural Map Generator / AI-Powered Procedural Worlds
 
 ## 🛠 Tech Stack
-- **C (Language)** - Core game logic and ONNX Runtime integration
 - **Python (Language)** - Training AI model
 - **PyTorch (AI Framework)** - Training deep learning model
 - **ONNX (Model Format)** - Portable model format for inference in C
 - **ONNX Runtime (Inference Engine)** - Running ONNX models efficiently in C
 - **Pygame (Game Framework)** - Displaying AI-generated maps for debugging
-- **CMake (Build System)** - Compiling the C integration
 
 <br /><br />
 
 ## 📂 Project Structure
 
-This project follows a structured layout to keep the **AI model, training, visualization, and integration with C** well-organized.
+This project follows a structured layout to keep the **AI model, training and visualization** well-organized.
 
 ```
 📦 root-project/
@@ -37,15 +35,15 @@ This project follows a structured layout to keep the **AI model, training, visua
 <br /><br />
 
 ## 🚀 Overview
-Ce projet vise à **générer des cartes procédurales** pour un jeu similaire à « King Arthur's Gold » en utilisant un réseau neuronal entraîné en Python. Le modèle est exporté vers **ONNX** et exécuté en **C** via **ONNX Runtime** pour la génération de cartes en temps réel.
+Ce projet vise à **générer des cartes procédurales** pour un jeu en utilisant un réseau neuronal entraîné en Python. Le modèle est exporté vers **ONNX** et exécuté en **C** via **ONNX Runtime** pour la génération de cartes en temps réel.
 
 <br /><br />
 
 ## 🔥 Why ONNX ?
 ONNX (Open Neural Network Exchange) nous permet de :
-- Former un modèle d'IA en Python et l'utiliser en C **sans avoir besoin de Python à l'exécution**.
+- Former un modèle d'IA en Python et l'utiliser en C **sans avoir besoin de Python ou autre à l'exécution**.
 - Optimiser pour de multiples plateformes (**Windows, Linux, macOS, iOS, Android**).
-- Accélérer l'inférence avec des **optimisations GPU (CUDA, TensorRT, DirectML, Metal)**.
+- Accélérer l'inférence avec des **optimisations GPU (CUDA, TensorRT, DirectML, CoreML, NNAPI, XNNPack..etc)**.
 
 <br /><br />
 
