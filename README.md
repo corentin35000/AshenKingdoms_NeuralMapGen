@@ -24,9 +24,6 @@ This project follows a structured layout to keep the **AI model, training and vi
 │   │   ├── display.py                # Rendering maps in real-time with Pygame
 ├── 📂 models/                        # Trained models stored here
 │   ├── map_generator.onnx            # Exported ONNX model for inference in C
-├── 📂 game/                          # Integration of ONNX Runtime in C
-│   ├── main.c                         # Loading ONNX model in C and generating maps
-│   ├── CMakelists.txt                 # Compilation instructions
 ├── 📜 .gitignore                      # Git ignore rules
 ├── 📜 requirements.txt                # Python dependencies
 ├── 📜 README.md                       # Project documentation
@@ -92,9 +89,3 @@ C:\venv\myproject_env\Scripts\activate
 python -m src.visualization.display
 ```
 Press **SPACE** to generate new maps in real-time.
-
-### 3️⃣ Compile and run the C integration
-```bash
-cd game
-# ... TODO
-```
